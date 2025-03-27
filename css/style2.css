@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(../img/fundo2.png);
+    background-size: 160% 160%;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #5E2B78;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.banner {
+    margin: 20px 0;
+    font-size: 28px;
+}
+
+.eventos {
+    margin: 20px;
+}
+
+.eventos ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.register-btn {
+    background-color: #5E2B78;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}

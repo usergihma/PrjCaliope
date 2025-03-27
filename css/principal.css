@@ -1,0 +1,289 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background: linear-gradient(45deg, #000000, #3C0A4C);
+    background-size: 100% 100%;
+    height: 100%;
+
+}
+
+.fundo {
+    border-width: 5px;
+    border-color: #511d5b;
+    border-style:solid;
+    margin: 20px;
+}
+.logo img {
+    width: 350px;
+    margin-left: 40px;
+}
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items:end ;
+    width: 100vw;
+    padding-right: 20px;
+}
+
+.logo_login{
+    margin-top: 30px;
+    display: flex;
+}
+
+.Botaos {
+    width: 100vw;
+}
+
+.botao2 {
+    width: 100vw;
+    margin-right: 90px;
+}
+
+.Login input {
+    border-width: 1px;
+    border-radius: 100px;
+    height: 40px;
+    width: 300px;
+    padding-inline: 10px;
+    background-color: black;
+    border-color: white;
+
+}
+.Botaos input {
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    font-size: medium;
+    background-color: #3C145A;
+    color: white;
+    border-width: 0px;
+}
+
+.botao2 input {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+    background-color: #3C145A;
+    color: white;
+    border-width: 0px;
+}
+
+.Botaos p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.frase {
+    width: 90vw;
+    display: flex;
+    justify-content: right;
+    height: 25vw;
+    align-items:end;
+}
+.frase img {
+    height: 300px;
+    display: flex;
+    justify-content: right;
+}
+
+.billiePoster img{
+    height: 600px;
+    margin-left: 80px;
+}
+
+.billie {
+    display: flex;
+    color: white;
+}
+.nomB {
+    width: 100%;
+    height: 150px;
+}
+.nomB img {
+    width: 600px;
+    margin-left: 110px;
+}
+
+.billie p {
+    margin: 100px;
+    font-size:x-large;
+    text-align: justify;
+}
+
+.billie hr {
+    margin: 80px;
+}
+
+.sabrinaPoster img{
+    height: 600px;
+    width: 450px;
+    margin-right: 60px;
+}
+
+.sabrina {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+}
+.nomS {
+    width: 100%;
+    height: 150px;
+}
+.nomS img {
+    width: 600px;
+    margin-left: 150px;
+}
+
+.sabrina p {
+    margin: 100px;
+    font-size:x-large;
+    text-align: justify;
+}
+
+.sabrina hr {
+    margin-top: -60px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.oliviaPoster img{
+    height: 600px;
+    margin-left: 80px;
+}
+
+.olivia {
+    display: flex;
+    color: white;
+}
+.nomO {
+    width: 100%;
+    height: 150px;
+}
+.nomO img {
+    width: 600px;
+    margin-left: 110px;
+}
+
+.olivia p {
+    margin: 100px;
+    font-size:x-large;
+    text-align: justify;
+}
+
+.olivia hr {
+    margin: 80px;
+    margin-top: 120px;
+}
+
+.allanPoster img{
+    height: 600px;
+    width: 450px;
+    margin-right: 60px;
+}
+
+.allan {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+}
+.nomA {
+    width: 100%;
+    height: 150px;
+}
+.nomA img {
+    width: 600px;
+    margin-left: 150px;
+}
+
+.allan p {
+    margin: 100px;
+    font-size:x-large;
+    text-align: justify;
+}
+
+.allan hr {
+    margin-top: 130px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.bacuPoster img{
+    height: 600px;
+    margin-left: 80px;
+}
+
+.bacu {
+    display: flex;
+    color: white;
+}
+.nomBa {
+    width: 100%;
+    height: 150px;
+}
+.nomBa img {
+    width: 500px;
+    margin-left: 150px;
+}
+
+.bacu p {
+    margin: 100px;
+    font-size:x-large;
+    text-align: justify;
+}
+
+.bacu hr {
+    margin: 80px;
+    margin-top: -80px;
+}
+
+.doechiiPoster img{
+    height: 700px;
+    width: 450px;
+    margin-right: 60px;
+}
+
+.doechii {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+}
+.nomD {
+    width: 100%;
+    height: 150px;
+}
+.nomD img {
+    width: 400px;
+    margin-left: 300px;
+}
+
+.doechii p {
+    margin: 100px;
+    font-size:x-large;
+    text-align: justify;
+}
+
+.doechii hr {
+    margin-top: 130px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
